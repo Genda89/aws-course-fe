@@ -1,5 +1,12 @@
 # React-shop-cloudfront
 
+## AUTOMATED DEPLOYMENT
+
+S3 bucket:
+https://tp-serverless-aws-cloudfront.s3.eu-west-1.amazonaws.com/index.html
+CLOUDFRONT DISTRIBUTION:
+https://d3lse8c47veomk.cloudfront.net
+
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
 - [Vite](https://vitejs.dev/) as a project bundler
