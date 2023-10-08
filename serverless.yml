@@ -1,4 +1,4 @@
-service: tp-serverless-aws-cloudfront
+service: automated-react-shop
 
 frameworkVersion: '3'
 
@@ -16,7 +16,7 @@ provider:
 plugins:
   - serverless-finch
 
-  # 'serverless-single-page-app-plugin' is a custom plugin that located .serverless_plugins folder.
+  # 'serverless-single-page-app-plugin' is a custom plugin that located .serverless-single-page-app-plugin folder.
 
   # Existing plugin (https://www.npmjs.com/package/serverless-single-page-app-plugin) doesn't have invalidate cache feature that often used during CI/CD events.
 
@@ -28,7 +28,7 @@ plugins:
 
 custom:
   client:
-    bucketName: tp-serverless-aws-cloudfront
+    bucketName: automated-react-shop
 
     distributionFolder: dist
 

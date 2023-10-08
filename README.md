@@ -1,11 +1,18 @@
 # React-shop-cloudfront
 
+## MANUAL DEPLOYMENT
+
+S3 Bucket
+http://manual-react-shop.s3-website-eu-west-1.amazonaws.com/index.html
+CLOUDFRONT
+https://d2lghw446gv490.cloudfront.net
+
 ## AUTOMATED DEPLOYMENT
 
 S3 bucket:
-https://tp-serverless-aws-cloudfront.s3.eu-west-1.amazonaws.com/index.html
+http://automated-react-shop.s3-website-eu-west-1.amazonaws.com/index.html
 CLOUDFRONT DISTRIBUTION:
-https://d3lse8c47veomk.cloudfront.net
+https://d16haa0y4f9n0g.cloudfront.net
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
 
