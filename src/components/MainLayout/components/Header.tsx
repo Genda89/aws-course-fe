@@ -33,7 +33,7 @@ export default function Header() {
             underline="none"
             to="/"
           >
-            My UPDATED Store!
+            EPAM Store!
           </Link>
         </Typography>
 
